@@ -1,0 +1,276 @@
+body {
+  background-color: lightcyan;
+}
+
+.docs-main {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.add-docs {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid-child {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grid-child p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.grid-child:hover {
+  background-color: #e8f0fe;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.modal input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.modal button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.editDocs-main {
+  display: flex;
+}
+
+.editDocs-sidebar {
+  flex: 0 0 300px;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.editDocs-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.editDocs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.editDocs-title {
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  margin-right: 10px;
+}
+
+.editDocs-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.editDocs-buttons button {
+  background-color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.editDocs-buttons button:hover {
+  background-color: #f1f3f4;
+}
+
+.editDocs-edit {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.editDocs-inner {
+  border: 1px solid #dfe1e5;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.react-quill {
+  height: 500px;
+  font-size: 16px;
+}
+
+.sidebar-main {
+  background-color: #f8f9fa;
+  height: 100%;
+  padding: 20px;
+}
+
+.sidebar-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sidebar-link {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.sidebar-link:hover {
+  text-decoration: underline;
+}
+
+.sidebar-link.active {
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.react-toastify {
+  font-family: Arial, sans-serif;
+}
+.add-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.add-docs {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-docs:hover {
+  background-color: #0c60b5;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-dialog {
+  position: relative;
+  margin: 0;
+  pointer-events: none;
+  width: auto;
+  maxwidth: 100%;
+  height: auto;
+  maxheight: 100%;
+  overflow: hidden;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 5px;
+  outline: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+
+.modal-content input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.modal-content button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #0c60b5;
+}
+.grid-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-child {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.grid-child p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.grid-child:hover {
+  background-color: #e8f0fe;
+  border-color: #1a73e8;
+}
